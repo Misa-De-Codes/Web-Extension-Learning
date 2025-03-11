@@ -8,6 +8,8 @@ A simple browser extension to track how much time you spend on different website
 - ✅ Shows total screen time with a progress bar  
 - ✅ Button to clear all data  
 
+![Screen Time Tracker Screenshot](./icons/screenshot1.png)
+
 ## Installation (For Edge & Chrome)  
 1. Open **Edge** or **Chrome**  
 2. Go to `edge://extensions/` (or `chrome://extensions/`)  
@@ -17,6 +19,7 @@ A simple browser extension to track how much time you spend on different website
 
 ## Folder Structure
 
+![Screen Time Tracker Screenshot](./icons/screenshot2.png)
 
 ## How It Works  
 1. The background script **tracks time** when switching tabs  
