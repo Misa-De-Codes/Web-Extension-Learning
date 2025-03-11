@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Screen Time Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Screen Time Tracker</h2>
+    <table id="timeTable">
+        <tr>
+            <th>Website</th>
+            <th>Time Spent</th>
+        </tr>
+    </table>
+
+    <div class="progress-container">
+        <progress id="screenProgress" value="0" max="100"></progress>
+        <p id="screenTimeText">Total: 0 min</p>
+    </div>
+
+    <button id="clearData">Clear Data</button>
+    <script src="popup.js"></script>
+</body>
+</html>

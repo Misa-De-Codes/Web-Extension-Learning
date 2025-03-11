@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Screen Time Tracker",
+    "version": "1.0",
+    "description": "Tracks time spent on each website.",
+    "icons": {
+      "48": "icons/icon48.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/icon48.png"
+    },
+    "permissions": ["tabs", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
