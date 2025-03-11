@@ -19,7 +19,7 @@ A simple browser extension to track how much time you spend on different website
 
 ## Folder Structure
 
-![Screen Time Tracker Screenshot](./icons/screenshot2.png)
+![Screen Time Tracker Screenshot](./icons/Screenshot2.png)
 
 ## How It Works  
 1. The background script **tracks time** when switching tabs  
